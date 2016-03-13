@@ -34,7 +34,7 @@ body{
     margin:0 0.69%;
 }
 .battery{
-    margin:1.5px 0.69% 1.5px 0;
+    margin:1px 0.69% 1px 0;
     float:right;
     vertical-align:middle;
 }
@@ -113,7 +113,7 @@ body{
 .verticalLine{
     width: 3px;
     height:26px;
-    margin:5.98% 4.17%;
+    margin:0 0 0 4.305%;
     background-color:#5fc0cd;
     float:left;
 }
@@ -123,11 +123,39 @@ body{
     padding:26px 0 26px 8.33%;
 }
 .icon_star_1{
-    margin:37px 0 37px 8.33%;
+    margin:0 0.972% 0 8.33%;
 }
-.content_2_2 span{
-    font-size:3.2rem;
+.content_2_2{
+    height:99px;
+    line-height:99px;
+}
+.content_2_2>span{
     font-family:黑体-繁;
+    font-size:3.2rem;
+    color:#333;
+}
+.icon_star_2{
+    margin:0 0.972% 0 4.44%;
+}
+.item_1{
+    font-family:黑体-繁;
+    font-size:3.2rem;
+    color:#999999;
+    margin:0 7.361% 0 8.33%;
+}
+.item_2{
+    font-family:黑体-繁;
+    font-size:3.2rem;
+    color:#333;
+}
+#selfItroduction{
+    display:inline-block;
+    margin:30px 7.361% 30px 8.33%;
+}
+#item_3{
+    width:65%;
+    font-size:2.8rem;
+    float:right;
 }
 .content_2 hr{
     height:0;
@@ -138,6 +166,10 @@ body{
 }
 .content_2_3{
     height: 100px;
+    line-height:100px;
+}
+.content_2_4{
+    height:100px;
 }
 .footer{
     height:226px;
@@ -147,7 +179,7 @@ body{
     height:38.94%;
     border-radius: 3.226%/11.364%;
     font-size: 3.4rem;
-    font-family:Hiragino Sans GB;
+    font-family:"Hiragino Sans GB W3";
 }
 .leaveMessage{
     background-color:transparent;
@@ -155,4 +187,11 @@ body{
     border-color:#5fc0cd;
     margin:13.75% 0 0 5.139%;
     border-width: 2px;
+    float:left;
+}
+.phoneCall{
+    background-color: #5fc0cd;
+    color:#ffffff;
+    margin:13.75% 5.139% 0 0;
+    float:right;
 }
