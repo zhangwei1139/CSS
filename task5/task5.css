@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-family:"Microsoft Yahei",sans-serif;
+}
+.container{
+    min-width:320px;
+    height: 1280px;
+}
+.header{
+    height: 126px;
+    position:relative;
+    background-color: #5fc0cd;
+    color:white;
+}
+.Nav{
+    height:34px;
+}
+.icon_signal{
+    margin:0 0.417% 0 1.67%;
+    vertical-align:middle;
+}
+.Nav span{
+    font-size:2.4rem;
+    vertical-align:middle;
+}
+.icon_wifi{
+    vertical-align:middle;
+    margin:0 0.69%;
+}
+.battery{
+    margin:1.5px 0.69% 1.5px 0;
+    float:right;
+    vertical-align:middle;
+}
+.icon_battery{
+    float:right;
+    margin:6px 1.94% 6px 0;
+    vertical-align: middle;
+}
+.icon_back{
+    position:absolute;
+    top:51.58%;
+    left:4.58%;
+}
+.blog{
+    font-size:3.6rem;
+    font-family:黑体-繁;
+    text-decoration:none;
+    position:absolute;
+    top:51.58%;
+    left:40.28%;
+    color:white;
+
+}
+.content_1{
+    height:326px;
+    position:relative;
+    background-image:url(images1/images1/bg_blur.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    -webkit-filter:blur(5px);
+    -moz-filter:blur(5px);
+    -ms-filter:blur(5px);
+    filter:blur(5px);
+    z-index:-1;
+}
+.content_1 span{
+    color:white;
+    font-family:黑体-繁;
+}
+.icon_head{
+    position:absolute;
+    top:24.23%;
+    left:4.03%;
+}
+.name{
+    font-size:3.6rem;
+    position:absolute;
+    top:35.89%;
+    left:32.92%;
+}
+.year{
+    font-size:2.8rem;
+    position:absolute;
+    top:36.2%;
+    left:51.81%;
+}
+.icon_shap{
+    position:absolute;
+    top:52.76%;
+    left:33.61%;
+}
+.location{
+    font-size:2.4rem;
+    position:absolute;
+    top:52.76%;
+    left:38.14%;
+}
+.content_2{
+    height:602px;
+}
+.content_2_1{
+    border-width: 0 0 1px 0;
+    border-color: #e1e5e7;
+    border-style: solid;
+}
+.verticalLine{
+    width: 3px;
+    height:26px;
+    margin:5.98% 4.17%;
+    background-color:#5fc0cd;
+    float:left;
+}
+.tills{
+    font-size:3.2rem;
+    font-family:黑体-繁;
+    padding:26px 0 26px 8.33%;
+}
+.icon_star_1{
+    margin:37px 0 37px 8.33%;
+}
+.content_2_2 span{
+    font-size:3.2rem;
+    font-family:黑体-繁;
+}
+.content_2 hr{
+    height:0;
+    width:95.42%;
+    float:right;
+    border:none;
+    border-top: 1px solid #e1e5e7;
+}
+.content_2_3{
+    height: 100px;
+}
+.footer{
+    height:226px;
+}
+.footer>input{
+    width:43.06%;
+    height:38.94%;
+    border-radius: 3.226%/11.364%;
+    font-size: 3.4rem;
+    font-family:Hiragino Sans GB;
+}
+.leaveMessage{
+    background-color:transparent;
+    color:#5fc0cd;
+    border-color:#5fc0cd;
+    margin:13.75% 0 0 5.139%;
+    border-width: 2px;
+}
